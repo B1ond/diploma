@@ -132,7 +132,7 @@ button {
 
 /* media style start */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .example_1 {
         max-width: 100%;
     }
@@ -145,9 +145,12 @@ button {
     .photo_1 {
         height: 270px;
     }
+    .micro-info {
+        margin-left: 365px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
     .example_1 {
         max-width: 100%;
     }
@@ -160,66 +163,125 @@ button {
     .photo_1 {
         height: 270px;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .example_1 {
-        max-width: 100%;
+    .micro-info {
+        margin-left: 155px;
     }
-    .example_2 {
-        max-width: 100%;
+    .name {
+        font-size: 25px;
+        padding-bottom: 15px;
     }
-    .example_3 {
-        max-width: 100%;
-    }
-    .skills {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        height: 100%;
-    }
-    .boxes {
-        flex-direction: column;
-    }
-    .box {
-        padding-left: 0;
-        padding-bottom: 30px;
-    }
-    .title {
-        font-size: 18px;
-    }
-    .portfolio_block {
-        padding-top: 50px;
-    }
-    .footer_title {
-        margin: 25px;
-    }
-    footer {
+    .info {
         padding-top: 20px;
-        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .example_1 {
+        max-width: 100%;
+    }
+    .example_2 {
+        max-width: 100%;
+    }
+    .example_3 {
+        max-width: 100%;
     }
     .photo_1 {
         height: 200px;
     }
-    .about_me {
-        padding-top: 50px;
-        padding-bottom: 20px;
-        height: 100%;
+    .menu {
+        font-size: 16px;
     }
-    .footer_img {
-        width: 35px;
-        height: 35px;
+    .menu_link_proj{
+        font-size: 16px;
     }
-    .footer_social {
-        max-width: 225px;
+    .name {
+        font-size: 23px;
+    }
+    .micro-info {
+        font-size: 18px;
+    }
+    .max-info {
+        font-size: 18px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    body {
-        font-size: 15px;
+@media screen and (max-width: 450px) {
+    .menu {
+        font-size: 14px;
+    }
+    .menu_link_proj{
+        font-size: 14px;
+    }
+    button{
+        padding: 12px 6px;
     }
     .photo_1 {
         height: 160px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .micro-info {
+        font-size: 16px;
+        margin-left: 55px;
+    }
+    .max-info {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        font-size: 13px;
+    }
+    .menu_link_proj{
+        font-size: 13px;
+    }
+    button{
+        padding: 10px 3px;
+    }
+    .photo_1 {
+        height: 160px;
+    }
+    .name {
+        font-size: 19px;
+    }
+    .micro-info {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .max-info {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu {
+        font-size: 13px;
+    }
+    .menu_link_proj{
+        font-size: 13px;
+    }
+    button{
+        padding: 10px 3px;
+    }
+    .photo_1 {
+        height: 160px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .micro-info {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .max-info {
+        font-size: 15px;
+    }
+    .button_clss_1 {
+    margin-top: -40px;
+    font-size: 20px;
+    padding: 25px 20px;
     }
 }
 

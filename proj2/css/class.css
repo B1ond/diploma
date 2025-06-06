@@ -183,7 +183,16 @@ button {
 
 /* project style end */
 
-@media screen and (max-width: 1024px) {
+/* media style start */
+
+@media screen and (max-width: 950px) {
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .example_1 {
         max-width: 100%;
     }
@@ -196,82 +205,149 @@ button {
     .photo_1 {
         height: 270px;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .example_1 {
-        max-width: 100%;
+    .micro-info {
+        margin-left: 365px;
     }
-    .example_2 {
-        max-width: 100%;
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 40px 80px;
     }
-    .example_3 {
-        max-width: 100%;
-    }
-    .photo_1 {
-        height: 270px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .example_1 {
-        max-width: 100%;
-    }
-    .example_2 {
-        max-width: 100%;
-    }
-    .example_3 {
-        max-width: 100%;
-    }
-    .skills {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        height: 100%;
-    }
-    .boxes {
+    .projects{
         flex-direction: column;
     }
-    .box {
-        padding-left: 0;
-        padding-bottom: 30px;
+    .projects_2{
+        flex-direction: column;
     }
-    .title {
-        font-size: 18px;
+    .projects_3{
+        flex-direction: column;
     }
-    .portfolio_block {
-        padding-top: 50px;
+}
+
+@media screen and (max-width: 690px) {
+    .example_1 {
+        max-width: 100%;
     }
-    .footer_title {
-        margin: 25px;
+    .example_2 {
+        max-width: 100%;
     }
-    footer {
+    .example_3 {
+        max-width: 100%;
+    }
+    .photo_1 {
+        height: 270px;
+    }
+    .micro-info {
+        margin-left: 155px;
+    }
+    .name {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .info {
         padding-top: 20px;
-        padding-bottom: 40px;
+    }
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 30px 60px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .example_1 {
+        max-width: 100%;
+    }
+    .example_2 {
+        max-width: 100%;
+    }
+    .example_3 {
+        max-width: 100%;
     }
     .photo_1 {
         height: 200px;
     }
-    .about_me {
-        padding-top: 50px;
-        padding-bottom: 20px;
-        height: 100%;
+    .menu {
+        font-size: 16px;
     }
-    .footer_img {
-        width: 35px;
-        height: 35px;
+    .menu_link_proj{
+        font-size: 16px;
     }
-    .footer_social {
-        max-width: 225px;
+    .name {
+        font-size: 23px;
+    }
+    .micro-info {
+        font-size: 18px;
+    }
+    .max-info {
+        font-size: 18px;
+    }
+    .button_clss_1 {
+    font-size: 25px;
+    padding: 28px 45px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    body {
-        font-size: 15px;
+@media screen and (max-width: 450px) {
+    .menu {
+        font-size: 14px;
+    }
+    .menu_link_proj{
+        font-size: 14px;
+    }
+    button{
+        padding: 12px 6px;
     }
     .photo_1 {
         height: 160px;
     }
+    .name {
+        font-size: 20px;
+    }
+    .micro-info {
+        font-size: 16px;
+        margin-left: 55px;
+    }
+    .max-info {
+        font-size: 16px;
+    }
+    .button_clss_1 {
+    margin-top: -40px;
+    font-size: 20px;
+    padding: 28px 35px;
+    }
+    .class_project{
+        font-size: 16px;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .menu {
+        font-size: 13px;
+    }
+    .menu_link_proj{
+        font-size: 13px;
+    }
+    button{
+        padding: 10px 3px;
+    }
+    .photo_1 {
+        height: 160px;
+    }
+    .name {
+        font-size: 19px;
+    }
+    .micro-info {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .max-info {
+        font-size: 15px;
+    }
+    .button_clss_1 {
+    margin-top: -60px;
+    font-size: 20px;
+    padding: 25px 20px;
+    }
+}
+
 
 /* media style end */
