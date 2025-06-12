@@ -1,0 +1,377 @@
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Impact";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #070707;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* header style start */
+
+header {
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    height: 100px;
+    background: #fff;
+    border-bottom: 1px solid #828282;
+}
+
+.menu {
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_link {
+    line-height: 23px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.menu_link_proj {
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+}
+
+button {
+    margin-top: -12px;
+    padding: 12px 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #FEE169;
+    cursor: pointer;
+    font-family: "Impact";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #070707;
+}
+
+.menu a:hover, .menu a:focus, .menu a:active {
+    color: #070707;
+    transform: scale(1.2);
+}
+
+/* header style end */
+
+.clss_list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_clss_1 {
+    font-size: 40px;
+    padding: 40px 135px;
+}
+
+.clss_list a {
+    text-decoration: none;
+    color: #0067BD;
+}
+
+/* media style start */
+
+/* inro style start */
+
+.info {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name {
+    width: 800px;
+    font-size: 26px;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+.micro-info {
+    margin-left: 350px;
+    text-align: end;
+    width: auto;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* inro style end */
+
+/* project style start */
+
+.project_1 {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo_1 {
+    height: 250px;
+    padding-top: 20px;
+}
+
+.photo {
+    padding-bottom: 20px;
+}
+
+.project_2 {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.projects_2{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+.projects_3{
+    display: flex;
+    justify-content: center;
+}
+
+/* project style end */
+
+/* media style start */
+
+@media screen and (max-width: 950px) {
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .example_1 {
+        max-width: 100%;
+    }
+    .example_2 {
+        max-width: 100%;
+    }
+    .example_3 {
+        max-width: 100%;
+    }
+    .photo_1 {
+        height: 270px;
+    }
+    .micro-info {
+        margin-left: 365px;
+    }
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 40px 80px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .projects_2{
+        flex-direction: column;
+    }
+    .projects_3{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .example_1 {
+        max-width: 100%;
+    }
+    .example_2 {
+        max-width: 100%;
+    }
+    .example_3 {
+        max-width: 100%;
+    }
+    .photo_1 {
+        height: 270px;
+    }
+    .micro-info {
+        margin-left: 155px;
+    }
+    .name {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .info {
+        padding-top: 20px;
+    }
+    .button_clss_1 {
+        font-size: 40px;
+        padding: 30px 60px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .example_1 {
+        max-width: 100%;
+    }
+    .example_2 {
+        max-width: 100%;
+    }
+    .example_3 {
+        max-width: 100%;
+    }
+    .photo_1 {
+        height: 200px;
+    }
+    .menu {
+        font-size: 16px;
+    }
+    .menu_link_proj{
+        font-size: 16px;
+    }
+    .name {
+        font-size: 23px;
+    }
+    .micro-info {
+        font-size: 18px;
+    }
+    .max-info {
+        font-size: 18px;
+    }
+    .button_clss_1 {
+    font-size: 25px;
+    padding: 28px 45px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu {
+        font-size: 14px;
+    }
+    .menu_link_proj{
+        font-size: 14px;
+    }
+    button{
+        padding: 12px 6px;
+    }
+    .photo_1 {
+        height: 160px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .micro-info {
+        font-size: 16px;
+        margin-left: 55px;
+    }
+    .max-info {
+        font-size: 16px;
+    }
+    .button_clss_1 {
+    margin-top: -40px;
+    font-size: 20px;
+    padding: 28px 35px;
+    }
+    .class_project{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        font-size: 13px;
+    }
+    .menu_link_proj{
+        font-size: 13px;
+    }
+    button{
+        padding: 10px 3px;
+    }
+    .photo_1 {
+        height: 160px;
+    }
+    .name {
+        font-size: 19px;
+    }
+    .micro-info {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .max-info {
+        font-size: 15px;
+    }
+    .button_clss_1 {
+    margin-top: -60px;
+    font-size: 20px;
+    padding: 25px 20px;
+    }
+}
+
+
+/* media style end */
+
+.wrp {
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+.map-box { 
+	position: absolute;
+	top: 70px;
+	left: 20px; 
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+	z-index: 100;
+	width: 300px;
+	box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+.map-box p {
+	font-size: 18px;
+}
+#map {
+	width: 100%; 
+	height: 350px;
+}
+
+.map {
+    padding-top: 50px;
+}
